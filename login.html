@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>login jis care</title>
+    <link type="text/css" rel="stylesheet" href="">
+    <script>
+        function pop(){
+            alert("you have succesfully Registerd");
+        }
+    </script>
+    <style>
+        body{
+            background-color: gray;
+        }
+        form{
+            background-color: silver;
+            padding: 10px;
+            margin-right: 35%;
+            margin-left: 35%;
+            border: 2px solid black;
+            border-radius: 5px;
+            text-align: left;
+        }
+        .sign{
+            margin-left: 45%;
+            margin-right: 50%;
+            font-size: 30px;   
+        }
+    </style>
+</head>
+<body>
+    <h1 class="sign" >Signup</h1>
+    <form action="BedInfo.html" method="POST" id="fom_1">
+        <label for="username">Username: </label>
+        <input type="text" name="username" placeholder="Enter your name"><br><br>
+        <label for="email">Email: </label>
+        <input type="email" name="email" placeholder="Enter your email" required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" placeholder="Enter your password"><br><br>
+        <label for="password">Confirm Password: </label>
+        <input type="password" name="Confirm Password" placeholder="Enter your password"><br><br>
+        <input type="radio" name="yes" value="female">Female
+        <input type="radio" name="yes" value="male">Male
+        <input type="radio" name="yes" value="others">Others<br><br>
+        <label for="Security Questions">Security Questions</label>
+        <select name="Security Questions">
+            <option value="name">what is your name?</option>
+            <option value="father name">what is your father name?</option>
+            <option value="mother name">what is your mother name?</option>
+        </select><br><br>
+        <label for="comment">Comments: </label><br>
+        <textarea name="comment" placeholder="Enter something"></textarea><br><br>
+        <input type="checkbox" name="check" value="marked">
+        <label for="check">I accept all terms & conditions</label><br><br>
+        <input type="submit" value="Register" onclick=pop()>
+    </form>
+
+    <script src=""></script>
+    <script></script>
+</body>
+</html>

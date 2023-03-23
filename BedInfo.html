@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hospital Management</title>
+    <link type="text/css" rel="stylesheet" href="">
+    <script>
+        function pop(){
+            alert("you have succesfully Update the data");
+        }
+    </script>
+    <style>
+        body{
+            background-color: gray;
+        }
+        form{
+            background-color: silver;
+            padding: 10px;
+            margin-right: 35%;
+            margin-left: 35%;
+            border: 2px solid black;
+            border-radius: 5px;
+            text-align: left;
+        }
+        .values{
+            margin-left: 42%;
+            margin-right: 30%;
+            font-size: 30px;   
+        }
+    </style>
+</head>
+<body>
+    <h1 class="values" >Enter All Data</h1>
+    <form action="" method="POST" id="fom_1">
+        <label for="s_no">S_no: </label>
+        <input type="number" name="s_no" placeholder="Enter serial number" required><br><br>
+        <label for="Hospital Name">Hospital Name: </label>
+        <input type="text" name="Hospital Name" placeholder="Enter Hospital Name"><br><br>
+        <label for="reg_id">Reg_id: </label>
+        <input type="number" name="reg_id" placeholder="Enter registration id" required><br><br>
+        <label for="phone">Phone Number: </label>
+        <input type="number" name="phone" placeholder="Enter phone number" required><br><br>
+        <label for="bed">Bed Available: </label>
+        <input type="number" name="bed" placeholder="Enter number of bed" required><br><br>
+        <label for="Icu">Icu Available: </label>
+        <input type="number" name="Icu" placeholder="Enter number of Icu" required><br><br>
+        <label for="Address">Address: </label><br>
+        <textarea name="Address" placeholder="Enter Address"></textarea><br><br>
+        <label for="Pin Code">Pin Code: </label>
+        <input type="number" name="Pin Code" placeholder="Enter Pin Code" required><br><br>
+        <label for="website">Website: </label>
+        <input type="text" name="website" placeholder="Enter website address"><br><br>
+        <input type="submit" value="Upload" onclick=pop()>
+    </form>
+
+    <script src=""></script>
+    <script></script>
+</body>
+</html>
